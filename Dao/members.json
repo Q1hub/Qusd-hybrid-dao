@@ -1,1 +1,33 @@
-
+// dao/members.json
+{
+  "name": "QUSD DAO – Official Member List",
+  "description": "100+ computors / agents that vote on every QUSD mint & redemption proposal",
+  "totalMembers": 127,
+  "requiredSupermajorityPercent": 67,
+  "updatedAt": "2025-12-07T00:00:00Z",
+  "members": [
+    {
+      "id": "001",
+      "computorId": 112233445566778899101112,
+      "identity": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+      "region": "North America",
+      "joined": "2025-08-15"
+    },
+    {
+      "id": "002",
+      "computorId": 223344556677889910111213,
+      "identity": "0x9f8e7d6c5b4a39281716151413121110",
+      "region": "Europe",
+      "joined": "2025-08-16"
+    },
+    {
+      "id": "003",
+      "computorId": 334455667788991011121314,
+      "identity": "0xabc123def456ghi789jkl012mno345pqr",
+      "region": "Asia",
+      "joined": "2025-08-20"
+    }
+    // ... (continue until you have all 127+ members)
+    // I’ll give you a quick way to generate the rest below
+  ]
+}
